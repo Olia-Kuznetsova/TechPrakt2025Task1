@@ -1,10 +1,26 @@
-div.user {
-    border:1px solid black;
-    padding:10px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf0e6;
 }
-div.user div {
-    cursor: pointer;
+
+header {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
-div.user.selected {
-    background-color: greenyellow;
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
 }
