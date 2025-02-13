@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf0e6;
+}
+
+header {
+    background: linear-gradient(90deg, #ffb6c1, #dda0dd, #fffacd);
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1, .news-year {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(#ff1493, #ffa07a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 10px rgba(255, 20, 147, 0.5);
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.news-item {
+    background: linear-gradient(135deg, #ffb6c1, #fffacd);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.news-item:hover {
+    transform: scale(1.03);
+}
+
+.news-item img {
+    max-width: 100%;
+    max-height: 200px; /* Задаємо максимальну висоту */
+    width: auto; /* Дозволяє зображенням зберігати пропорції */
+    border-radius: 20px;
+}
+
+
+.news-item h2 {
+    color: #800080;
+    text-align: center;
+}
+
+.news-item p {
+    color: #333;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(90deg, #ffb6c1, #dda0dd, #fffacd);
+    color: white;
+    border-radius: 30px 30px 0 0;
+}
