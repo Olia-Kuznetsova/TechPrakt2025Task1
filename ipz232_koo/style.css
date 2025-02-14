@@ -47,14 +47,14 @@ main {
 
 .news-item img {
     max-width: 100%;
-    max-height: 200px; /* Задаємо максимальну висоту */
+    max-height: 190px; /* Задаємо максимальну висоту */
     width: auto; /* Дозволяє зображенням зберігати пропорції */
     border-radius: 20px;
 }
 
 
 .news-item h2 {
-    color: #800080;
+    color: #ff00af;
     text-align: center;
 }
 
@@ -68,6 +68,6 @@ footer {
     text-align: center;
     padding: 15px;
     background: linear-gradient(90deg, #ffb6c1, #dda0dd, #fffacd);
-    color: white;
+    color: #e88b8b;
     border-radius: 30px 30px 0 0;
 }
